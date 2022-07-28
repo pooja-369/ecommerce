@@ -13,3 +13,7 @@ document.getElementById("loginup").addEventListener("click",()=>{
     document.querySelector(".login").style.display ="block";
     document.querySelector(".signup").style.display="none";
 });
+
+document.getElementById("close").addEventListener("click",()=>{
+    document.querySelector(".login").style.display="none";
+});
