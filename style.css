@@ -97,7 +97,7 @@ p{
 /***************************** homepage************************  */
 
 #home{
-    background: url(./sample1.jpg);
+    background: url(./sample4.avif);
     background-size: cover;
     z-index: -1;
     height: 100vh;
@@ -111,9 +111,10 @@ p{
 }
 
 .home-left{
-    /* color: white; */
     font-family: 'Roboto', sans-serif;
-    /* text-transform: uppercase; */
+    opacity:1 !important;
+    z-index: 3;
+    color: rgb(0, 0, 0);
 }
 .home-left h4{
     padding-bottom: 15px;
@@ -136,7 +137,6 @@ p{
 /*************** login ************ */
 
 .login-container{
-    /* display: none; */
     justify-content: center;
     margin-top: 55px;
     margin-right: 15px;
@@ -160,8 +160,8 @@ p{
    align-items: center;
    width: 100%;
    border-radius:  10px 15px;
-   background: rgb(152, 155, 207);
-   transition: height 0.2s ease;
+   background: rgb(225 225 225);
+   transition: all 0.2s ease;
 }
 
 .login{
@@ -210,6 +210,7 @@ p{
     padding:0 35px;
     border: none;
     outline: none;
+    background: rgb(225 225 225);
     font-size: 16px;
     border-bottom: 2px solid rgb(21, 13, 13);
     border-top: 2px solid transparent;
@@ -221,7 +222,6 @@ p{
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    color: rgb(84, 69, 168);
     font-size: 23px;
 }
 
@@ -284,20 +284,14 @@ p{
 }
 #feature .fe-box{
     font-family: 'Poppins', sans-serif;
-    /* border: 2px solid ; */
-    /* box-shadow:18px 18px 20px rgb(0, 0, 0,0.3) ; */
     width: 220px;
     text-align: center;
     padding: 25px 15px;
     border-radius: 14px;
-    /* background: rgb(217, 211, 252); */
     transition: 0.8s;
     margin: 15px 1px;
 }
 
-#feature .fe-box:hover{
-    box-shadow:18px 18px 20px rgb(0, 0, 0,0.3) ;
-}
 .fe-box img{
     width: 100px;
     height: 100px;
@@ -308,8 +302,6 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     padding: 10px 15px;
-    /* border-radius: 10px; */
-    /* background: rgb(65, 60, 60); */
     color: rgb(0, 0, 0);
 }
 

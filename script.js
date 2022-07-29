@@ -17,3 +17,7 @@ document.getElementById("loginup").addEventListener("click",()=>{
 document.getElementById("close").addEventListener("click",()=>{
     document.querySelector(".login").style.display="none";
 });
+
+document.getElementById("close2").addEventListener("click",()=>{
+    document.querySelector(".signup").style.display="none";
+});
