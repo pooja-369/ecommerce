@@ -21,3 +21,8 @@ document.getElementById("close").addEventListener("click",()=>{
 document.getElementById("close2").addEventListener("click",()=>{
     document.querySelector(".signup").style.display="none";
 });
+
+const header = document.querySelector('header')
+window.addEventListener('scroll', () => {
+    header.classList.toggle('shadow', window.scrollY > 0);
+});
