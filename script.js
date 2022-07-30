@@ -29,6 +29,11 @@ window.addEventListener('scroll', () => {
     header.classList.toggle('shadow', window.scrollY > 0);
 });
 
+const header2 = document.getElementById("bar")
+window.addEventListener('scroll', () => {
+    header2.classList.toggle('shadow2', window.scrollY > 0);
+});
+
 // owl carousal
 
 $('.owls').owlCarousel({
