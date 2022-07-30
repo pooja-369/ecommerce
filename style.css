@@ -49,10 +49,7 @@ p{
     left: 0;
     top: 0;
 }
-header .shadow{
-    background: #000 ;
-    background-color: #000;
-}
+
 
 #header1 img{
     width: 50px;
@@ -94,6 +91,14 @@ header .shadow{
     bottom: -4px;
     left: 20px;
 
+}
+
+.header .bar{
+    display: none;
+}
+
+.uil-bars:before{
+    font-size: 2.8rem;
 }
 
 /***************************** homepage************************  */
@@ -400,4 +405,14 @@ header .shadow{
   right: 10px;
   font-weight: 700;
   color: white;
+}
+
+/* media query  */
+@media screen and (max-width:848px) {
+    #navbar{
+        display: none;
+    }
+    .header .bar{
+        display: block;
+    }
 }
