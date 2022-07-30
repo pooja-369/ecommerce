@@ -50,3 +50,12 @@ $('.owls').owlCarousel({
         }
     }
 })
+
+
+document.getElementById("visible").addEventListener("click",()=>{
+    document.querySelector("#header1").style.display="flex";
+});
+
+document.getElementById("hidden").addEventListener("click",()=>{
+    document.querySelector("#header1").style.display="none";
+});
