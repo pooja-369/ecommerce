@@ -8,6 +8,7 @@
 h1{
     font-size: 50px;
     line-height: 64px;
+    font-weight: 700;
 }
 
 h2{
@@ -17,6 +18,7 @@ h2{
 
 h4{
     font-size: 26px;
+    font-weight: 700;
 }
 
 h6{
@@ -26,6 +28,7 @@ h6{
 p{
     font-size: 16px;
     margin: 15px 0 20px 0 ;
+    font-weight: 600;
 }
 
 .section-p1{
@@ -104,7 +107,7 @@ p{
 /***************************** homepage************************  */
 
 #home{
-    background: url(./sample4.avif);
+    background: url(./sample1.jpg);
     background-size: cover;
     z-index: -1;
     height: 100vh;
@@ -136,9 +139,14 @@ p{
     border: 2px solid white;
     border-radius: 15px;
     padding: 10px 20px;
-    background-color: transparent;
     color: white;
+    background-color: transparent;
     text-transform: uppercase;
+}
+
+
+.home-left button:hover{
+    background: #000;
 }
 
 /*************** login ************ */
@@ -312,6 +320,19 @@ p{
     color: rgb(0, 0, 0);
 }
 
+.owl{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+ text-align: center;
+    width: 90%;
+}
+
+.owl-theme .item{
+    width: 100px;
+    height: 150px;
+    margin: auto;
+}
+
 /******************* product featured ******************** */
 #product{
     text-align: center;
@@ -335,7 +356,8 @@ p{
 #product .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
 }
 #product .container-info{
@@ -345,7 +367,7 @@ p{
  /* border: 1px solid black; */
  border-radius: 10px;
  cursor: pointer;
- margin: 15px 0;
+ margin: 15px 7px;
  transition: 0.8s;
  position: relative;
 
@@ -408,6 +430,15 @@ p{
 }
 
 /* media query  */
+@media screen and (max-width:525px){
+  #home{
+    padding: 0 20px;
+  }
+  #header1{
+    padding: 10px 20px;
+  }
+}
+
 @media screen and (max-width:848px) {
     #navbar{
         display: none;
