@@ -175,7 +175,7 @@ p{
     margin-right: 15px;
     z-index: 3;
     position: fixed;
-    /* max-width: 430px; */
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -460,6 +460,12 @@ p{
   #bar{
     padding: 10px 19px;
   }
+}
+
+@media screen and (max-width:643px){
+    .login-container .forms{
+        min-width: 22rem;
+    }
 }
 
 @media screen and (max-width:848px) {
