@@ -29,11 +29,6 @@ window.addEventListener('scroll', () => {
     header.classList.toggle('shadow', window.scrollY > 0);
 });
 
-const header2 = document.getElementById("bar")
-window.addEventListener('scroll', () => {
-    header2.classList.toggle('shadow2', window.scrollY > 0);
-});
-
 // owl carousal
 
 $('.owls').owlCarousel({
@@ -58,9 +53,11 @@ $('.owls').owlCarousel({
 
 
 document.getElementById("visible").addEventListener("click",()=>{
-    document.querySelector("#header1").style.display="flex";
+    document.querySelector(".responsive-navbar").style.display="inline-block";
+    document.querySelector(".responsive-navbar").style.visibility="visible";
 });
 
 document.getElementById("hidden").addEventListener("click",()=>{
-    document.querySelector("#header1").style.display="none";
+    document.querySelector(".responsive-navbar").style.display="none";
+    document.querySelector(".responsive-navbar").style.visibility="hidden";
 });
