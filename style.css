@@ -350,7 +350,7 @@ p{
 	background: white;
 	/* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125); */
 	height: 56vh;
-    padding-top: 0;
+    padding-top: 60px;
 	margin: auto;
 	overflow:hidden;
 	position: relative;
@@ -420,7 +420,7 @@ p{
     margin: auto;
     text-align: center;
     width: 92%;
-    padding-top: 50px;
+    padding-top: 22px;
 }
 
 .owl-theme .item{
@@ -490,7 +490,7 @@ p{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    padding: 98px 0px;
+    padding: 58px 0px;
 }
 
 #product h2{
@@ -739,5 +739,33 @@ ul{
   }
   
   
-  
+  .img-sec{
+    /* font-family: 'Courier New', monospace; */
+    background: url(./bann.webp);
+    background-size:cover;
+    height: 56vh;
+    margin: 15px 15px;
+  }
 
+  .img-one{
+    /* font-family: 'Courier New', monospace; */
+    background: url(./bann2.webp);
+    background-size:cover;
+    height: 56vh;
+    margin: 15px 15px;
+  }
+  .sales{
+    margin: 25px auto 43px auto;
+    padding: 100px 40px;
+    text-align: center;
+
+  }
+
+  .sales .active{
+    color: white;
+  }
+  .sales p{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+  }
