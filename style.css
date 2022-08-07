@@ -187,6 +187,7 @@ p{
     border-radius: 15px;
     padding: 10px 20px;
     color: white;
+    cursor: pointer;
     background-color: transparent;
     text-transform: uppercase;
 }
