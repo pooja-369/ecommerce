@@ -180,4 +180,7 @@ fieldset {
   .back{
     display: block;
   }
+  .section-header{
+    padding: 110px 0px 60px;
+  }
 }

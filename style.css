@@ -126,7 +126,7 @@ p{
 /****************** mobile-navbar***************** */
 .responsive-navbar{
     position: fixed;
-    /* display: inline-block; */
+    /* display: inline-block !important;  */
     z-index: 999;
     display: none;
     visibility: hidden;
