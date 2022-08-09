@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="bar" class="bar">
+        <i class="uil uil-bars" id="visible"></i>
+        <i class="uil uil-times" id="hidden"></i>
+       </div>
+      <header id="header1" class="header">
+        <a href="#"><img src="logo.webp" class="logo" alt="logo"></a>
+        <div class="navbar-section">
+           <ul id="navbar">
+             <li><a class="active" href="index.html">Home</a></li>
+             <li><a href="product.html">Products</a></li>
+             <li><a href="AboutUs.html">About</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="#" id="button">login</a></li>
+             <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+           </ul>
+        </div>
+     </header>
+
+     <div class="responsive-navbar">
+        <ul id="mobile-nav">
+          <li><a class="active"  href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="AboutUs.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html" id="button">login</a></li>
+          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+       </div>
+       <!-- login starts -->
+       <div class="login-container">
+        <div class="forms">
+            <div class="form login ">
+              <div class="close" >
+                <span class="title">Login</span>
+                <i id="close" class="uil uil-times"></i>
+              </div>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter Your Mail">
+                       <i class="uil uil-envelope"></i>
+                    </div>
+       
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter Your Password">
+                       <i class="uil uil-lock"></i>
+                    </div>
+       
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="checkbox">
+                            <label for="logcheck" class="text">Remember Me</label>
+                        </div>
+                        <a href="#" class="text">forget Password ?</a>
+                    </div>
+       
+                    <div class="input-field button">
+                        <input type="button" value="Login Now">
+                    </div>
+                </form>
+       
+               <div class="login-signup">
+                <span class="text">Not a member ?
+                    <a href="#"  id="signup" class="text signup-link">Signup Now</a>
+                </span>
+               </div> 
+            </div>
+<!-- registration form -->
+
+<div class="form signup ">
+    <div class="close">
+      <span class="title">Registration Now</span>
+      <i  id="close2" class="uil uil-times"></i>
+    </div>
+      <form action="#">
+
+          <div class="input-field">
+              <input type="text" placeholder="Enter Your Name">
+             <i class="uil uil-user"></i>
+          </div>
+
+          <div class="input-field">
+              <input type="text" placeholder="Enter Your Mail">
+             <i class="uil uil-envelope"></i>
+          </div>
+
+          <div class="input-field">
+              <input type="text" placeholder="Enter Your Password">
+             <i class="uil uil-lock"></i>
+          </div>
+
+          <div class="input-field">
+              <input type="text" placeholder="Enter Confirm Password">
+             <i class="uil uil-lock"></i>
+          </div>
+
+          <div class="checkbox-text">
+              <div class="checkbox-content">
+                  <input type="checkbox" id="checkbox">
+                  <label for="logcheck" class="text">Remember Me</label>
+              </div>
+              <a href="#" class="text">forget Password ?</a>
+          </div>
+
+          <div class="input-field button">
+              <input type="button" value="Login Now">
+          </div>
+      </form>
+
+     <div class="login-signup">
+      <span class="text">Not a member ?
+          <a href="#" id="loginup" class="text login-link">Login Now</a>
+      </span>
+     </div> 
+  </div>
+</div>
+</div>
+
+
+<!-- producr starts   -->
+<section id="product" class="section-p1">
+    <h2 class="active">Featured Product </h2>
+    <p>Summer collection New Morden Design</p>
+    <div class="card-container">
+     <div class="container-info">
+       <img src="./images/p1.webp" alt="">
+       <div class="container-content">
+         <span>Addidas</span>
+         <h5>The Drop Women's Britt Tiered Maxi Tent Dress</h5>
+         <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+         </div>
+         <h4>$78</h4>
+       </div>
+       <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+     </div>
+
+     <div class="container-info">
+       <img src="./images/p2.webp" alt="">
+       <div class="container-content">
+         <span>Addidas</span>
+         <div class="title">
+           <h5>Summer Dress for Women Chiffon Blouses Skirt Spaghetti Sleeveless Tops Halter Ruffle Romper Sun Flowy Summer Outfits</h5>
+         </div>
+         <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+         </div>
+         <h4>$78</h4>
+       </div>
+       <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+     </div>
+
+     <div class="container-info">
+       <img src="./images/p3.webp" alt="">
+       <div class="container-content">
+         <span>Addidas</span>
+         <div class="title">
+           <h5>Summer Dresses for Women Beach Floral Tshirt Sundress Sleeveless Pockets Casual Loose Tank Dress</h5>
+         </div>
+         <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+         </div>
+         <h4>$78</h4>
+       </div>
+       <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+     </div>
+
+     <div class="container-info">
+       <img src="./images/p4.webp" alt="">
+       <div class="container-content">
+         <span>Addidas</span>
+         <div class="title">
+           <h5>Floerns Women's Boho Floral Print Off Shoulder Split Long A Line Dress</h5>
+         </div>
+         <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+         </div>
+         <h4>$78</h4>
+       </div>
+       <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+     </div>
+
+     <div class="container-info">
+       <img src="./images/p8.jpg" alt="">
+       <div class="container-content">
+         <span>Addidas</span>
+         <div class="title">
+           <h5>Tanst Sky Women Summer Sleeveless Damask Print T-Shirt Dress with Pockets(S-3XL)</h5>
+         </div>
+         <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+         </div>
+         <h4>$78</h4>
+       </div>
+       <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+     </div>
+    
+     <div class="container-info">
+       <img src="./images/p1.webp" alt="">
+       <div class="container-content">
+         <span>Addidas</span>
+         <h5>The Drop Women's Britt Tiered Maxi Tent Dress</h5>
+         <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+         </div>
+         <h4>$78</h4>
+       </div>
+       <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+     </div>
+
+     <div class="container-info">
+       <img src="./images/p2.webp" alt="">
+       <div class="container-content">
+         <span>Addidas</span>
+         <div class="title">
+           <h5>Summer Dress for Women Chiffon Blouses Skirt Spaghetti Sleeveless Tops Halter Ruffle Romper Sun Flowy Summer Outfits</h5>
+         </div>
+         <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+         </div>
+         <h4>$78</h4>
+       </div>
+       <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+     </div>
+
+     <div class="container-info">
+       <img src="./images/p3.webp" alt="">
+       <div class="container-content">
+         <span>Addidas</span>
+         <div class="title">
+           <h5>Summer Dresses for Women Beach Floral Tshirt Sundress Sleeveless Pockets Casual Loose Tank Dress</h5>
+         </div>
+         <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+         </div>
+         <h4>$78</h4>
+       </div>
+       <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+     </div>
+
+     <div class="container-info">
+        <img src="./images/p4.webp" alt="">
+        <div class="container-content">
+          <span>Addidas</span>
+          <div class="title">
+            <h5>Floerns Women's Boho Floral Print Off Shoulder Split Long A Line Dress</h5>
+          </div>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+      </div>
+ 
+      <div class="container-info">
+        <img src="./images/p8.jpg" alt="">
+        <div class="container-content">
+          <span>Addidas</span>
+          <div class="title">
+            <h5>Tanst Sky Women Summer Sleeveless Damask Print T-Shirt Dress with Pockets(S-3XL)</h5>
+          </div>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+      </div>
+     
+      <div class="container-info">
+        <img src="./images/p1.webp" alt="">
+        <div class="container-content">
+          <span>Addidas</span>
+          <h5>The Drop Women's Britt Tiered Maxi Tent Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+      </div>
+ 
+      <div class="container-info">
+        <img src="./images/p2.webp" alt="">
+        <div class="container-content">
+          <span>Addidas</span>
+          <div class="title">
+            <h5>Summer Dress for Women Chiffon Blouses Skirt Spaghetti Sleeveless Tops Halter Ruffle Romper Sun Flowy Summer Outfits</h5>
+          </div>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+      </div>
+
+      <div class="container-info">
+        <img src="./images/p4.webp" alt="">
+        <div class="container-content">
+          <span>Addidas</span>
+          <div class="title">
+            <h5>Floerns Women's Boho Floral Print Off Shoulder Split Long A Line Dress</h5>
+          </div>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+      </div>
+ 
+      <div class="container-info">
+        <img src="./images/p8.jpg" alt="">
+        <div class="container-content">
+          <span>Addidas</span>
+          <div class="title">
+            <h5>Tanst Sky Women Summer Sleeveless Damask Print T-Shirt Dress with Pockets(S-3XL)</h5>
+          </div>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+      </div>
+     
+      <div class="container-info">
+        <img src="./images/p1.webp" alt="">
+        <div class="container-content">
+          <span>Addidas</span>
+          <h5>The Drop Women's Britt Tiered Maxi Tent Dress</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+      </div>
+ 
+      <div class="container-info">
+        <img src="./images/p2.webp" alt="">
+        <div class="container-content">
+          <span>Addidas</span>
+          <div class="title">
+            <h5>Summer Dress for Women Chiffon Blouses Skirt Spaghetti Sleeveless Tops Halter Ruffle Romper Sun Flowy Summer Outfits</h5>
+          </div>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+        </div>
+        <a href="#"><i id="cart" class="fas fa-shopping-cart"></i></a>
+      </div>
+   </div>
+
+   
+ </section>
+ <!-- product ends  -->
+
+<!-- footer start -->
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+<!-- footer ends  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
