@@ -726,6 +726,9 @@ ul{
         visibility: visible;
         background:white;
     }
+    #product {
+        padding: 95px 0px;
+    }
 }
 
 @media(max-width: 767px){
